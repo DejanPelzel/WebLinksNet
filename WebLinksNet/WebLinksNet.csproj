@@ -43,7 +43,6 @@
     <Compile Include="WebLink.cs" />
     <Compile Include="WebLinksCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebLinksParser.cs" />
     <Compile Include="WebLinksParserException.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

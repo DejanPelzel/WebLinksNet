@@ -61,14 +61,18 @@ namespace WebLinksNet
 
             sb.Append('<');
             sb.Append(this.Url);
-            sb.Append(">; ");
+            sb.Append(">;");
 
-            foreach (var attr in this._attributes)
+            foreach(var item in this._attributes)
             {
-                sb.Append('<');
+                sb.Append(' ');
+                sb.Append(item.Key);
+                sb.Append("=\"");
+                sb.Append(item.Value);
+                sb.Append('"');
             }
 
-            return "";
+            return sb.ToString();
         }
 
         /// <summary>
