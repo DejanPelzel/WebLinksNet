@@ -15,12 +15,12 @@ namespace System.Net.WebLinks
         /// <param name="webResponse"></param>
         public static WebLinksCollection GetWebLinks(this HttpWebResponse webResponse)
         {
-            if (!webResponse.Headers.AllKeys.Contains("Links"))
+            if (!webResponse.Headers.AllKeys.Contains("Link"))
             {
                 return null;
             }
 
-            return WebLinksCollection.Parse(webResponse.Headers["Links"]);
+            return WebLinksCollection.Parse(webResponse.Headers["Link"]);
         }
     }
 }
