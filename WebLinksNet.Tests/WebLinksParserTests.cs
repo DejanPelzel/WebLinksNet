@@ -1,7 +1,6 @@
 ﻿using System;
+using System.Net.WebLinks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WebLinks;
-using WebLinksNet;
 
 namespace WebLinksNet.Tests
 {

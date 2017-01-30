@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebLinksNet
+namespace System.Net.WebLinks
 {
     /// <summary>
     /// A WebLink object representing the web link data

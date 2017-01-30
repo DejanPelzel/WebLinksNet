@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebLinksNet;
 
-namespace WebLinks
+namespace System.Net.WebLinks
 {
     /// <summary>
     /// A collection of web links

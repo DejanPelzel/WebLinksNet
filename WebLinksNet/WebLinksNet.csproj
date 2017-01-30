@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HttpWebResponseExtension.cs" />
     <Compile Include="WebLink.cs" />
     <Compile Include="WebLinksCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
